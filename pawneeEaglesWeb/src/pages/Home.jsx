@@ -19,7 +19,7 @@
           <Navbar className="z-10 relative bg-transparent" />
 
           {/* Top section with background image and overlay */}
-          <div className="relative h-[400px] overflow-hidden rounded-b-lg">
+          <div className="relative h-[600px] overflow-hidden rounded-b-lg">
             {/* Team Photo background */}
             <img 
               src="/team2.png" 
@@ -38,7 +38,7 @@
 
               {/* Bottom Right Menu */}
               <div className="flex justify-end">
-                <div className="w-full max-w-xs bg-white rounded-lg shadow-lg p-4">
+                <div className="w-full max-w-xs bg-[#eedfbe] rounded-lg shadow-lg p-4">
                 <h3 className="text-xl font-semibold text-center text-blue-900 mb-2">Team League Menu</h3>
                 <MainSection />
               </div>
@@ -47,7 +47,7 @@
           </div>
 
           {/* Bottom content - tiles section */}
-          <div className="mt-12 px-6 pb-6">
+          <div className="mt-0 px-6 pb-6 bg-[#eedfbe] rounded-lg shadow-lg">
             <TilesSection />
           </div>
         </div>
